@@ -13,7 +13,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  Future<NewsModel>? fetchdata;
+  Future<NewsModel>? fetchdata;  
   final PageController controller = PageController();
 
   @override
